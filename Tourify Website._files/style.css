@@ -1,0 +1,244 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Paytone One', sans-serif;
+font-family: 'Poppins', sans-serif;
+ }
+ .header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("https://www.theroadtripexpert.com/wp-content/uploads/2019/06/friends-sunset.jpg");
+    background-size: cover;
+    background-position: center;
+ }
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+ }
+ .logo{
+    width: 140px;
+    cursor: pointer;
+ }
+ .nav-links li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+ }
+ .nav-links li a{
+    text-decoration: none;
+    color: #fff;
+ }
+ .register-btn{
+    background: #d80f0f;
+    color: #000;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+ }
+ .container{
+    padding: 0 7%;
+ }
+.header h1{
+    font-size: 4vw;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding-top: 22%;
+}
+.search-bar{
+    background: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+}
+.search-bar form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.search-bar form input{
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.search-bar form button{
+    background-color: #ff5361;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.search-bar form button img{
+    width: 30px;
+    margin-top: 8px;
+}
+.location-input{
+    flex: 1;
+}
+.search-bar form label{
+    font-weight: 600;
+}
+
+/*--exclusive section--*/
+.sub-title{
+    margin: 50px 0 20px;
+    font-size: 2.2vw;
+    font-weight: 500;
+    color: #333;
+    padding-bottom: 5px;
+    padding: 25px;
+}
+.exclusives{
+    display: inline-block;
+    margin: 25px;
+    
+    
+}
+.exclu{
+    background-color: rgb(190, 148, 148);
+    height: 34px;
+    width: 100%;
+    border-radius: 25px;
+
+}
+
+
+.trend{
+    background-color: rgb(190, 148, 148);
+    height: 34px;
+    width: 100%;
+    border-radius: 25px;
+}
+.trending{
+    display: grid;
+    grid-template-columns: repeat(minmax(200px,1fr));
+    grid-gap: 100px;
+    float: left;
+    width: 22.33%;
+    padding: 10px;
+    margin: 12px;
+}
+.trending div img{
+    width:100%;
+    border-radius: 10px;
+}
+.trending h2{
+    font-size: 600;
+    margin-top: 10px;
+}
+.sub-title{
+    margin: 50px 0 20px;
+    font-size: 2.2vw;
+    font-weight: 500;
+    color: #333;
+}
+.hotels{
+    height: 54px;
+    width: 100%;
+    border-radius: 25px;
+    background-color: rgb(190, 148, 148) ;
+}
+.search-bar1{
+    background: palegoldenrod;
+    width: 70%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+}
+.search-bar1 form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.search-bar1 form input{
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.search-bar1 form button{
+    background-color: #ff5361;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.search-bar1 form button img{
+    width: 30px;
+    margin-top: 8px;
+}
+.location-input{
+    flex: 1;
+}
+.search-bar1 form label{
+    font-weight: 600;
+}
+.exclusives div{
+    position: relative;
+    text-align: center;
+}
+.exclusives p{
+    width: 80%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: aqua;
+    font-size: 26px;
+    font-weight: 600;
+}
+.hotels1{
+     height: 54px;
+     width: 100%;
+    border-radius: 25px;
+     background-color: rgb(190, 148, 148) ;
+}
+.exclusives2 div{
+    position: relative;
+    text-align: center;
+}
+.exclusives2 p{
+    width: 80%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: aqua;
+    font-size: 26px;
+    font-weight: 600;
+}
+.exclusives2{
+    display: inline-block;
+    margin: 25px;
+    
+    
+}
+.btn btn-primary{
+    background: #d80f0f;
+    color: #000;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+ }
+ .card{
+    display: flex=1;
+ }
+ .trend2{
+    height: 54px;
+    width: 100%;
+   border-radius: 25px;
+    background-color: rgb(190, 148, 148) ;
+}
+
+
